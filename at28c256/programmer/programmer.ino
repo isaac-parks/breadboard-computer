@@ -1,7 +1,4 @@
-#include <AsyncTimer.h>
-
-
-  AsyncTimer t;
+// PROOF OF CONCEPT
   int WE = 13;
   int OE = 2;
   int CE = 12;
