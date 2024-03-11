@@ -28,7 +28,6 @@ void setup() {
 }
 
 void loop() {
-  t.handle();
   read();
 }
 
@@ -42,11 +41,11 @@ void write() {
   digitalWrite(D0, HIGH);
   digitalWrite(D1, LOW);
   digitalWrite(D2, LOW);
-  digitalWrite(D3, LOW);
+  digitalWrite(D3, HIGH);
   digitalWrite(D4, LOW);
   digitalWrite(D5, LOW);
   digitalWrite(D6, LOW);
-  digitalWrite(D7, LOW);
+  digitalWrite(D7, HIGH);
 
 
   digitalWrite(OE, HIGH); // Disable output
